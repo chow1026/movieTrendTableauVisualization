@@ -17,16 +17,16 @@ The V0 Tableau Worksheet is generated for initial exploratory and brainstorming 
 
 ### Design:  
 a. [Movie by Genre Year ][0946e7b3]        
-To see the overall trend of movie production over the years, I had chosen to plot a histogram  chart, with 5 year bin.  I used x axis to encode 5 year bin, y axis to encode count of titles, and colors to encode movie genre.     
+To see the overall trend of movie production over the years, I had chosen to plot a histogram  chart, with 5 year bin.  I used x axis to encode 5 year bin, y axis to encode count of titles, and color hues to encode movie genre.     
 
 b. [Ratings vs Genre][99349fc5]    
-A bar chart is plotted to see if there is any correlation between average ratings and genres.  The plot shows there is no particular genre that has particular outstanding ratings.  I used x axis to encode genre, y axis and color (range) to encode average ratings.      
+A bar chart is plotted to see if there is any correlation between average ratings and genres.  The plot shows there is no particular genre that has particular outstanding ratings.  I used x axis to encode genre, y axis and color saturations to encode average ratings.      
 
 c. [Ratings for Genre Over Time][1bd98f06]      
-A bar chart is plotted this to see if there is any genre that grew more popular by average ratings.  I applied dual axis on x-axis to encode 5 year bin, y axis to encode average ratings, and colors to encode genre.       
+A bar chart is plotted this to see if there is any genre that grew more popular by average ratings.  I applied dual axis on x-axis to encode 5 year bin, y axis to encode average ratings, and color hues to encode genre.       
 
 d. [Top Rated Movies][da5db654]     
-This plot was plotted to show all the titles, its release year, the count of ratings it received, its average ratings.  It is a bubble plot using x axis to encode average ratings, y axis to encode movie release year, bubble size and color to encode the count of ratings.    
+This plot was plotted to show all the titles, its release year, the count of ratings it received, its average ratings.  It is a bubble plot using x axis to encode average ratings, y axis to encode movie release year, bubble size and color saturations to encode the count of ratings.    
 
   [0946e7b3]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MoviesProduction5YearBins "Movie Production 5 Year Bin"
   [99349fc5]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v0/RatingsvGenre "Ratings vs Genre"
