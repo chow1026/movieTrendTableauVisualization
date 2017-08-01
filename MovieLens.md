@@ -62,7 +62,7 @@ This plot generally looks good as it shows the cluttering patterns of average ra
 
 
 ## Version 1:   
-The V1 Tableau Worksheet is generated incorporate more explanatory and storytelling.  A few dashboards and a storyboard were added.  
+The V1 Tableau Worksheet is generated incorporate more explanatory and storytelling.  A few dashboards and a storyboard were also added.  
 
 ### Version 1 Design:      
 
@@ -94,7 +94,7 @@ This crosstab table is added to supplement plot d [Yearly Average Ratings by Gen
   [c1283914]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/YearlyAvgRatingsbyGenreCrosstab "Yearly Average Ratings by Genre Crosstab"    
 
 f. [Movie Ratings][2bb1bf08]     
-This is same as [Version 0 plot d][da5db654], but retitled more appropriately.     
+This is same as [Version 0 plot d][da5db654], but retitled.     
 
   [2bb1bf08]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MovieRatings "Movie Ratings"
 
@@ -141,8 +141,57 @@ Storyboard built with dashboard h, i, j, k.
 - A good improvement from Version 0.  
 - This version is more explanatory.  
 - Good combination of sheets to build dashboards.  
+- Chart d was still hard to read.  
 
 **Negative feedbacks**:    
 - Titles and labels were not consistent across sheets and were a bit confusing.  
 - Layouts and views of dashboards on the final storyboard were not consistently responsive to viewport.  
 - The flow of the storyboard wasn't entirely smooth.  I was encouraged to write more in the caption box to guide users the flow of thoughts.
+
+On top of this, here are some **sheet/dashboard specific feedback**:   
+
+c. [Ratings vs Genres][55ebc0a3]  
+Hard to differentiate bubble size.  
+
+d. [Yearly Average Ratings by Genre (1995 - 2016)][8791c08a]    
+Chart a bit hard to read due to overlapping data point.  Also hard to see trends.  
+
+
+
+## Final Version:     
+In general these are the modifications made on Final Version:    
+- Checked and edited Titles and labels
+- Checked and made sure layouts and viewports across dashboards are consistent and responsive.  
+
+
+### Final Version Design (Listing Only Modifications):      
+
+**WORKSHEETS**      
+
+c. [Ratings vs Genres][e4602554]
+- Made bubble size bigger.  
+
+  [e4602554]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_final/RatingsvGenres "Ratings vs Genres"
+
+d. [Yearly Average Ratings by Genre (1995 - 2016)][7fbe1537]     
+- Edited y-axis range to cover 2.0 to 5.0.   
+- Made shape size slightly bigger so genre with lower count of ratings could still be seen.  
+
+  [7fbe1537]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_final/YearlyAvgRatingsbyGenre "Yearly Average Ratings by Genre"
+
+**DASHBOARDS**     
+m. [Movie Ratings Dashboard][d8b54404]    
+Added this dashboard to help the flow of story.  This dashboard shows the cluster patterns of movie ratings.  
+
+  [d8b54404]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_final/MovieRatingsDashboard "Movie Ratings Dashboard"
+
+
+
+**STORYBOARD**     
+
+l. [MovieLens Movie Ratings][4c6a280b]    
+- Added elaboration in caption for each dashboard.  
+- Reworked layout to make storyboard more consistent.  
+
+
+##References:     
