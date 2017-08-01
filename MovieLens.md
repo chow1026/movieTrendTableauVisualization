@@ -15,7 +15,10 @@ The data are contained in four files links.csv, movies.csv, ratings.csv and tags
 ## Version 0:   
 The V0 Tableau Worksheet is generated for initial exploratory and brainstorming process.
 
-### Design:  
+### Version 0 Design:  
+
+**WORKSHEETS**    
+
 a. [Movie by Genre Year ][0946e7b3]        
 To see the overall trend of movie production over the years, I had chosen to plot a histogram  chart, with 5 year bin.  I used x axis to encode 5 year bin, y axis to encode count of titles, and color hues to encode movie genre.     
 
@@ -35,10 +38,12 @@ This plot was plotted to show all the titles, its release year, the count of rat
 
 
 
-### Feedback:
+### Version 0 Feedback:
 The general feedback was that all the plots had shown basic/initial analysis of the dataset but had little/no elements of explanatory nor storytelling.  I was advised to step back and rethink about the questions I was trying to answer and then how I should extract and present the data.  
 
 In addition, feedback received with respect to each individual plots are:
+
+**WORKSHEETS**  
 
 a. [Movie by Genre Year ][0946e7b3]      
 While the trend of quantity produced over time was well represented, it is hard to decode/read the trends for genres over year.  
@@ -51,3 +56,93 @@ Dual axis made the plot particularly long.  Using Year as Dimension, also made i
 
 d. [Top Rated Movies][da5db654]     
 This plot generally looks good as it shows the cluttering patterns of average ratings for movies.  However, even with this small dataset, it is hard to identify movies with the most rated (highest count of ratings) and/or highest rated (highest average ratings).  
+
+
+
+
+
+## Version 1:   
+The V1 Tableau Worksheet is generated incorporate more explanatory and storytelling.  A few dashboards and a storyboard were added.  
+
+### Version 1 Design:      
+
+**WORKSHEETS**      
+
+a. [Movie Production (5 Year Bins)][8bcac020]    
+This is the same as [Version 0 Plot a][0946e7b3].    
+
+  [8bcac020]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MoviesProduction5YearBins "Movie Production (5 Year Bins)"
+
+b. [Movie Production by Genre Over Time][4826bc79]
+A line chart is plotted to show trends of movie production by genre.  I used x axis to encode year, y axis to encode count of titles, and color hues to encode genre.  
+
+  [4826bc79]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MovieProductionbyGenreoverTime "Movie Production by Genre Over Time"
+
+c. [Ratings vs Genres][55ebc0a3]       
+This plot is used in replacement of [Version 0 Plot b][1bd98f06].  A combination of bubble and scatter plot were used to show an overview of which genre is most rated and which is highest rated (highest average ratings).  I applied dual axis on y axis to encode average ratings and count of ratings, x axis and colors to encode genre, y axis and bubble size to encode count of ratings, y axis, shape and color saturation to encode average ratings.    
+
+  [55ebc0a3]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/RatingsvGenres "Ratings vs Genres"
+
+d. [Yearly Average Ratings by Genre (1995 - 2016)][8791c08a]     
+This plot is used in replacement of [Version 0 Plot c][1bd98f06].  Color hues and shapes were used to encode genre, bubble size used to encode count of ratings, x axis used to encode release year and y axis used to encode average ratings.    
+
+  [8791c08a]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/YearlyAvgRatingsbyGenre "Yearly Average Ratings by Genre"   
+
+e. [Yearly Average Ratings by Genre Crosstab (1995 - 2016)][c1283914]        
+This crosstab table is added to supplement plot d [Yearly Average Ratings by Genre (1995 - 2016)][8791c08a].   
+
+  [c1283914]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/YearlyAvgRatingsbyGenreCrosstab "Yearly Average Ratings by Genre Crosstab"    
+
+f. [Movie Ratings][2bb1bf08]     
+This is same as [Version 0 plot d][da5db654], but retitled more appropriately.     
+
+  [2bb1bf08]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MovieRatings "Movie Ratings"
+
+g. [Most Rated and Highest Rated Movies][9fe7e2bf]      
+This is a combination of bar chart and point chart to zoom into detailed view of most rated and highest rated movies.  Dual axis applied on x axis to encode average ratings and count of ratings, y axis to encode title with release year.  Chart can be sorted by average ratings or count of ratings to easily identify top ranked movies.      
+
+  [9fe7e2bf]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MostRatedandHighestRatedMovies "Most Rated and Highest Rated Movies"
+
+
+**DASHBOARDS**     
+
+h. [Trends of Yearly Movie Production][2e3f7ba6]
+Dashboard built with Sheet a and Sheet b.  
+
+  [2e3f7ba6]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/YearlyTrendsofMovieProductions "Yearly Trends of Movie Production"
+
+i. [Most Rated and Highest Rated Genre][07db28f5]     
+Dashboard built with Sheet c.
+
+  [07db28f5]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MostRatedandHighestRatedGenres "Most Rated and Highest Rated Genre"     
+
+j. [[Trends of Yearly Average Ratings by Genre][6d35feb1]]     
+Dashboard built with Sheet d and Sheet e (crosstab of d).  
+
+  [6d35feb1]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/TrendsofYearlyAvgRatingsbyGenre "Trends of Yearly Average Ratings by Genre"
+
+k. [Most Rated and Highest Rated Movies Dashboard][a773ebb6]
+Dashboard built with Sheet g.  
+
+  [a773ebb6]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MostRatedandHighestRatedMoviesDB "Most Rated and Highest Rated Movies Dashboard"
+
+
+**STORYBOARD**     
+
+l. [MovieLens Movie Ratings][535356b3]        
+Storyboard built with dashboard h, i, j, k.      
+
+  [535356b3]: https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MovieLensMovieRatings "MovieLens Movie Ratings"
+
+
+### Version 1 Feedback:     
+
+**Positive Feedbacks**:     
+- A good improvement from Version 0.  
+- This version is more explanatory.  
+- Good combination of sheets to build dashboards.  
+
+**Negative feedbacks**:    
+- Titles and labels were not consistent across sheets and were a bit confusing.  
+- Layouts and views of dashboards on the final storyboard were not consistently responsive to viewport.  
+- The flow of the storyboard wasn't entirely smooth.  I was encouraged to write more in the caption box to guide users the flow of thoughts.
