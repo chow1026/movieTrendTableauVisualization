@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 
 # Tableau Visualization - Movie Rating Dataset from MovieLens
 
