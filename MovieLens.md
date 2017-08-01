@@ -195,3 +195,8 @@ l. [MovieLens Movie Ratings][4c6a280b]
 
 
 ##References:     
+- [https://grouplens.org/datasets/movielens/](https://grouplens.org/datasets/movielens/)     
+- [https://movielens.org/](https://movielens.org/)
+- [https://www.tableau.com/learn/training](https://www.tableau.com/learn/training)     
+- [https://discussions.udacity.com/c/nd002-data-visualization-with-tableau](https://discussions.udacity.com/c/nd002-data-visualization-with-tableau)
+- [https://community.tableau.com/welcome](https://community.tableau.com/welcome)
