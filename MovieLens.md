@@ -13,6 +13,9 @@ The data are contained in four files links.csv, movies.csv, ratings.csv and tags
 
 
 ## Version 0:   
+
+#### [View on Tableau Public](https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v0/TopRatedMoviesShows)
+
 The V0 Tableau Worksheet is generated for initial exploratory and brainstorming process.
 
 ### Version 0 Design:  
@@ -62,6 +65,9 @@ This plot generally looks good as it shows the cluttering patterns of average ra
 
 
 ## Version 1:   
+
+#### [View on Tableau Public](https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_v1/MovieLensMovieRatings)
+
 The V1 Tableau Worksheet is generated incorporate more explanatory and storytelling.  A few dashboards and a storyboard were also added.  
 
 ### Version 1 Design:      
@@ -159,6 +165,9 @@ Chart a bit hard to read due to overlapping data point.  Also hard to see trends
 
 
 ## Final Version:     
+
+#### [View on Tableau Public](https://public.tableau.com/profile/yoong.shin.chow#!/vizhome/TableauProject_ml-latest-small_final/MovieLensMovieRatings)
+
 In general these are the modifications made on Final Version:    
 - Checked and edited Titles and labels
 - Checked and made sure layouts and viewports across dashboards are consistent and responsive.  
